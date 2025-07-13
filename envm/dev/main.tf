@@ -21,6 +21,18 @@ module "resource_group2" {
   resource_group_location = "West US"
 }
 
+module "resource_group3" {
+  source                  = "../../Modules/Resource_Group"
+  resource_group_name     = "abhipriya_rg3"
+  resource_group_location = "West US"
+}
+
+module "resource_group4" {
+  source                  = "../../Modules/Resource_Group"
+  resource_group_name     = "abhipriya_rg4"
+  resource_group_location = "West US"
+}
+
 # module "virtual_network" {
 #   source                   = "../../Modules/Virtual_Network"
 #   depends_on               = [module.resource_group]
