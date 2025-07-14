@@ -15,11 +15,6 @@ module "resource_group" {
   resource_group_location = "West US"
 }
 
-module "resource_group2" {
-  source                  = "../../Modules/Resource_Group"
-  resource_group_name     = "abhipriya_rg2"
-  resource_group_location = "West US"
-}
 
 module "resource_group3" {
   source                  = "../../Modules/Resource_Group"
